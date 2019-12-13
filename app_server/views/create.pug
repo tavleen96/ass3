@@ -1,0 +1,11 @@
+extend layout
+
+block content
+ h1= title
+ p #{title}
+ form(method='POST' action='')
+  label(for='name') Name:
+  input#name(type='text' name='name')
+  label(for='type') Type:
+  input#name(type='text' name='type')
+  button(type='submit') Submit
